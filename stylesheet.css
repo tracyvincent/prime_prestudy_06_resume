@@ -1,0 +1,115 @@
+body {
+	background: url('escheresque_ste.png') 0 0 repeat;
+	font-family: 'Titillium Web';
+}
+
+.date {
+	font-style: italic;
+}
+
+header .summary {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #dfdfdf;
+	width: 600px;
+}
+
+header {
+	color: #dfdfdf;
+	position: relative;
+}
+
+header h1 {
+	font-size: 55px;
+  	display: inline-block;
+}
+
+header aside {
+	display: inline-block;
+	margin-left: 2em;
+}
+
+.details {
+	padding-top: 25px;
+}
+
+h2 {
+	color: #dfdfdf;
+	margin-left: 10px;
+}
+
+.well {
+	background-color: #dddddd;
+}
+
+.pic {
+	margin-top: 4em;
+	right: 0;
+	float: right;
+	padding: 1em;
+	background: #ccc;
+	box-shadow: 0px 0px 15px 15px #111;
+	transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+
+}
+
+dt {
+	float: left;
+	width: 25%;
+}
+
+dd {
+	padding-top: 20px;
+	float: right;
+	width: 75%;
+	margin: 0;
+}
+
+.education dt {
+	width: 75%;
+}
+.education dt h3,
+.education dt address,
+.education dt span,
+.education dd {
+	margin: 0;
+	display: inline-block;
+	width: 25%;
+	line-height: 40px;
+}
+.education dt h3 {
+	width: 40%;
+}
+
+.education dt span {
+	width: 240px;
+}
+
+.education dd {
+	text-align: right;
+	padding: 0;
+}
+
+.switch {
+	background: url(onOff.jpg);
+	display: block;
+	margin: 7px auto;
+	width: 250px;
+	height: 104px;
+	overflow: hidden;
+	background-position: -20px -110px;
+	border: none;
+	box-shadow: 0 0 3px 3px #ccc;
+}
+
+.switch.on {
+	background-position: -20px 0;
+}
+
+.container {
+	display: none;
+}
